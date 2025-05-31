@@ -45,7 +45,7 @@ public class SequentialQuickSort {
 			if (arr[i] <= arr[end]) {
 				i++;
 				//si entra en el if, usando el continue evitamos que 
-				//el resto del codigo no se ejecute
+				//el resto del codigo se ejecute
 				continue;
 			}
 
@@ -55,7 +55,7 @@ public class SequentialQuickSort {
 			if (arr[j] >= arr[end]) {
 				j--;
 				//si entra en el if, usando el continue evitamos que 
-				//el resto del codigo no se ejecute
+				//el resto del codigo se ejecute
 				continue;
 			}
 
